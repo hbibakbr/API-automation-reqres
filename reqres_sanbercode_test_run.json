@@ -1,0 +1,805 @@
+{
+	"id": "edf7fa1d-dec3-4d94-a0eb-e074c4414883",
+	"name": "Reqres",
+	"timestamp": "2024-10-13T10:43:57.881Z",
+	"collection_id": "36679028-c6d4c039-cab3-41cd-9382-067508d24470",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 68,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-10-13T10:43:47.141Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "d282bd88-1104-4d6c-9453-864e2db0cdf1",
+			"name": "List Users",
+			"url": "https://reqres.in/api/users?page=2",
+			"time": 350,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 700ms": true,
+				"Total is 12": true,
+				"Per page is 6": true,
+				"Data users is valid": true,
+				"Details of user with id 7 is valid": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 700ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Total is 12": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Per page is 6": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Data users is valid": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Details of user with id 7 is valid": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				350
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true,
+					"Total is 12": true,
+					"Per page is 6": true,
+					"Data users is valid": true,
+					"Details of user with id 7 is valid": true
+				}
+			]
+		},
+		{
+			"id": "6d912909-f630-40ab-8634-82a846738c7f",
+			"name": "Single User",
+			"url": "https://reqres.in/api/users/2",
+			"time": 103,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 500ms": true,
+				"Body matches email": true,
+				"Data email is matches": true,
+				"Data user with id 2 is valid": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches email": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Data email is matches": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Data user with id 2 is valid": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				103
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 500ms": true,
+					"Body matches email": true,
+					"Data email is matches": true,
+					"Data user with id 2 is valid": true
+				}
+			]
+		},
+		{
+			"id": "c08625fc-a054-424c-a96f-af0d1785610a",
+			"name": "Single User Not Found",
+			"url": "https://reqres.in/api/users/23",
+			"time": 91,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true,
+				"Response time is less than 700ms": true,
+				"Response body is empty or {}": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 700ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response body is empty or {}": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				91
+			],
+			"allTests": [
+				{
+					"Status code is 404": true,
+					"Response time is less than 700ms": true,
+					"Response body is empty or {}": true
+				}
+			]
+		},
+		{
+			"id": "0f31b62e-96e7-400d-a2d7-3cb19cb2042c",
+			"name": "List <Resource>",
+			"url": "https://reqres.in/api/unknown",
+			"time": 67,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 700ms": true,
+				"Total is 12": true,
+				"Per page is 6": true,
+				"Data resources is valid": true,
+				"Details of resource with id 6 is valid": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 700ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Total is 12": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Per page is 6": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Data resources is valid": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Details of resource with id 6 is valid": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				67
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true,
+					"Total is 12": true,
+					"Per page is 6": true,
+					"Data resources is valid": true,
+					"Details of resource with id 6 is valid": true
+				}
+			]
+		},
+		{
+			"id": "623856e7-d14a-4b39-ad20-c6f939816201",
+			"name": "Single <Resource>",
+			"url": "https://reqres.in/api/unknown/2",
+			"time": 71,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 700ms": true,
+				"Body matches name": true,
+				"Data name is matches": true,
+				"Data resource with id 2 is valid": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 700ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Data name is matches": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Data resource with id 2 is valid": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				71
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true,
+					"Body matches name": true,
+					"Data name is matches": true,
+					"Data resource with id 2 is valid": true
+				}
+			]
+		},
+		{
+			"id": "55d02197-051b-4758-9a61-1d71e44a20c4",
+			"name": "Single <Resource> Not Found",
+			"url": "https://reqres.in/api/unknown/23",
+			"time": 451,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true,
+				"Response time is less than 700ms": true,
+				"Response body is empty or {}": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 700ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response body is empty or {}": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				451
+			],
+			"allTests": [
+				{
+					"Status code is 404": true,
+					"Response time is less than 700ms": true,
+					"Response body is empty or {}": true
+				}
+			]
+		},
+		{
+			"id": "81eab37d-81cd-4dac-882e-c2bd762e778e",
+			"name": "Create User",
+			"url": "https://reqres.in/api/users",
+			"time": 478,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Response time is less than 1000ms": true,
+				"Body matches name": true,
+				"Id is existing": true,
+				"Data name is matches": true,
+				"Data job is matches": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Id is existing": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Data name is matches": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Data job is matches": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				478
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Response time is less than 1000ms": true,
+					"Body matches name": true,
+					"Id is existing": true,
+					"Data name is matches": true,
+					"Data job is matches": true
+				}
+			]
+		},
+		{
+			"id": "cde1e764-c8e4-4286-9d35-878cf8a3000a",
+			"name": "Update User Job",
+			"url": "https://reqres.in/api/users/2",
+			"time": 475,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 700ms": true,
+				"Body matches updated job": true,
+				"Data job updated is matches": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 700ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches updated job": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Data job updated is matches": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				475
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true,
+					"Body matches updated job": true,
+					"Data job updated is matches": true
+				}
+			]
+		},
+		{
+			"id": "6b74f35d-8505-4406-9972-42b800b19120",
+			"name": "Update User",
+			"url": "https://reqres.in/api/users/2",
+			"time": 633,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 1000ms": true,
+				"Body matches updated job": true,
+				"Data job updated is matches": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches updated job": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Data job updated is matches": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				633
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true,
+					"Body matches updated job": true,
+					"Data job updated is matches": true
+				}
+			]
+		},
+		{
+			"id": "3eb2f016-d829-46bf-a11d-110867a14e26",
+			"name": "Delete User",
+			"url": "https://reqres.in/api/users/2",
+			"time": 556,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true,
+				"Response time is less than 700ms": true,
+				"Response body is empty": true,
+				"Content-Type header is null": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 700ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response body is empty": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type header is null": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				556
+			],
+			"allTests": [
+				{
+					"Status code is 204": true,
+					"Response time is less than 700ms": true,
+					"Response body is empty": true,
+					"Content-Type header is null": true
+				}
+			]
+		},
+		{
+			"id": "cffafca6-c09c-4348-b7bb-0e9db2915dc9",
+			"name": "Register Successful",
+			"url": "https://reqres.in/api/register",
+			"time": 447,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 700ms": true,
+				"Body matches token": true,
+				"Data id is matches": true,
+				"Data id is existing": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 700ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches token": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Data id is matches": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Data id is existing": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				447
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true,
+					"Body matches token": true,
+					"Data id is matches": true,
+					"Data id is existing": true
+				}
+			]
+		},
+		{
+			"id": "9576c337-7c27-45cc-9486-2c6399ec2fd4",
+			"name": "Register Unsuccessful",
+			"url": "https://reqres.in/api/register",
+			"time": 506,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Response time is less than 700ms": true,
+				"Body matches error message": true,
+				"Error: Missing password is existing": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 700ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches error message": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Error: Missing password is existing": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				506
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Response time is less than 700ms": true,
+					"Body matches error message": true,
+					"Error: Missing password is existing": true
+				}
+			]
+		},
+		{
+			"id": "09335c92-9811-4330-a73f-3517ca3273a2",
+			"name": "Login Successful",
+			"url": "https://reqres.in/api/login",
+			"time": 469,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 700ms": true,
+				"Body matches token": true,
+				"Data token is existing": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 700ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches token": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Data token is existing": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				469
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true,
+					"Body matches token": true,
+					"Data token is existing": true
+				}
+			]
+		},
+		{
+			"id": "309ba599-3b09-4732-b539-b3afb72903f0",
+			"name": "Login Unsuccessful",
+			"url": "https://reqres.in/api/login",
+			"time": 474,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Response time is less than 700ms": true,
+				"Body matches error message": true,
+				"Error: Missing password is existing": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 700ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches error message": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Error: Missing password is existing": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				474
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Response time is less than 700ms": true,
+					"Body matches error message": true,
+					"Error: Missing password is existing": true
+				}
+			]
+		},
+		{
+			"id": "8fe624f5-c4ac-47de-92cd-c8e8ba2355b5",
+			"name": "Delayed Response",
+			"url": "https://reqres.in/api/users?delay=3",
+			"time": 3454,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 5000ms": true,
+				"Body matches email": true,
+				"Data users is valid": true,
+				"Details of user with id 6 is valid": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 5000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches email": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Data users is valid": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Details of user with id 6 is valid": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3454
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 5000ms": true,
+					"Body matches email": true,
+					"Data users is valid": true,
+					"Details of user with id 6 is valid": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 8625,
+	"collection": {
+		"requests": [
+			{
+				"id": "d282bd88-1104-4d6c-9453-864e2db0cdf1",
+				"method": "GET"
+			},
+			{
+				"id": "6d912909-f630-40ab-8634-82a846738c7f",
+				"method": "GET"
+			},
+			{
+				"id": "c08625fc-a054-424c-a96f-af0d1785610a",
+				"method": "GET"
+			},
+			{
+				"id": "0f31b62e-96e7-400d-a2d7-3cb19cb2042c",
+				"method": "GET"
+			},
+			{
+				"id": "623856e7-d14a-4b39-ad20-c6f939816201",
+				"method": "GET"
+			},
+			{
+				"id": "55d02197-051b-4758-9a61-1d71e44a20c4",
+				"method": "GET"
+			},
+			{
+				"id": "81eab37d-81cd-4dac-882e-c2bd762e778e",
+				"method": "POST"
+			},
+			{
+				"id": "cde1e764-c8e4-4286-9d35-878cf8a3000a",
+				"method": "PUT"
+			},
+			{
+				"id": "6b74f35d-8505-4406-9972-42b800b19120",
+				"method": "PATCH"
+			},
+			{
+				"id": "3eb2f016-d829-46bf-a11d-110867a14e26",
+				"method": "DELETE"
+			},
+			{
+				"id": "cffafca6-c09c-4348-b7bb-0e9db2915dc9",
+				"method": "POST"
+			},
+			{
+				"id": "9576c337-7c27-45cc-9486-2c6399ec2fd4",
+				"method": "POST"
+			},
+			{
+				"id": "09335c92-9811-4330-a73f-3517ca3273a2",
+				"method": "POST"
+			},
+			{
+				"id": "309ba599-3b09-4732-b539-b3afb72903f0",
+				"method": "POST"
+			},
+			{
+				"id": "8fe624f5-c4ac-47de-92cd-c8e8ba2355b5",
+				"method": "GET"
+			}
+		]
+	}
+}
